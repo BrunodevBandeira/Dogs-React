@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const UserPost = () => {
 
@@ -37,17 +37,17 @@ const UserPost = () => {
                onChange={({target}) => setUserName(target.value)} 
         />
 
-    <input type="text"
-                placeholder='password'
-                value={password}
-                onChange={({target}) => setPassword(target.value)} 
-            />
+        <input type="text"
+                    placeholder='password'
+                    value={password}
+                    onChange={({target}) => setPassword(target.value)} 
+        />
 
-    <input type="text"
-                placeholder='email'
-                value={email}
-                onChange={({target}) => setEmail(target.value)} 
-            />
+        <input type="text"
+                    placeholder='email'
+                    value={email}
+                    onChange={({target}) => setEmail(target.value)} 
+        />
 
 
             <button> Enviar </button>
